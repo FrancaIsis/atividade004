@@ -1,0 +1,35 @@
+<!-- G) Verificação de Triângulo
+O site educativo TriangulaWeb precisa de uma página interativa onde os 
+usuários informam as medidas de três segmentos de reta. 
+O sistema então verifica e informa se esses segmentos podem formar um triângulo, 
+com base na regra matemática da desigualdade triangular. 
+O feedback deve ser claro e visual.
+ -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letra G - Verificação de Triângulo</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <header>
+    <h1>Letra G - Verificação de Triângulo</h1>
+  </header>
+  <body>
+    <div class="espaco">
+    <label for = "segmento1">Informe o primeiro segmento:</label>
+    <input type="number" id="segmento1"/>
+    <br />
+    <label for = "segmento2">Informe o segundo segmento:</label>
+    <input type="number" id="segmento2"/>
+    <br />
+    <label for = "segmento1">Informe o terceiro segmento:</label>
+    <input type="number" id="segmento3"/>
+    <button id="btnVerificar" class="botao">Verificar</button>
+    <br />
+    <ul id="resultado"></ul>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
